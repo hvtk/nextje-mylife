@@ -1,10 +1,12 @@
 import styles from './page.module.css'
+import Image from 'next/image'
+import selectImageFamily from 'public/images/selections/family.jpg'
 
 export default function Page() {
   return (
     <main className={styles.main}>
         <article>
-          <img src="/images/selections/family.jpg" 
+          <Image src={selectImageFamily} 
                alt="images represending your family" 
                width={153} 
                height={153}
