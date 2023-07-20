@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import selectImageFamily from '../public/images/selections/family.jpg'
+import selectImageFamily from 'public/images/selections/family.jpg'
 
 export default function Page() {
   return(
@@ -7,7 +7,9 @@ export default function Page() {
       <Image
          src={selectImageFamily} 
          alt="images represending your family" 
-         sizes="100vw"
+         width={153} 
+         height={153}
+        
       />
       <p> Family and Friends</p>
     </div>
