@@ -1,17 +1,11 @@
-import styles from './page.module.css'
-import Image from 'next/image'
-import selectImageFamily from 'public/images/selections/family.jpg'
+import styles from './dashboard.module.css'
+import {Selection} from '../component/selection/page'
 
 export default function Page() {
   return (
     <main className={styles.main}>
         <article>
-          <Image src={selectImageFamily} 
-               alt="images represending your family" 
-               width={153} 
-               height={153}
-               className={styles.img_selection}
-          />
+          <Selection />
           <p className={styles.name_selection}> Family and Friends</p>
         </article>
     </main>
