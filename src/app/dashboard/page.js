@@ -1,7 +1,8 @@
 import styles from './dashboard.module.css'
-import {Selection} from '../component/selection/page'
+import { Selection } from '../component/selection/page'
 import selectImageWhereILive from 'public/images/selections/where i live.jpg'
 import selectImageFamily from 'public/images/selections/family.jpg'
+import { SelectionName } from '../component/selection/page'
 
 export default function Page() {
   return (
@@ -11,14 +12,18 @@ export default function Page() {
             src={selectImageFamily}
             alt="image respresending my family and friends"
           />
-          <p className={styles.name_selection}> Family and Friends</p>
+          <SelectionName>
+           Family and Friends
+          </SelectionName>
         </article>  
         <article>
           <Selection
             src={selectImageWhereILive} 
             alt="images represending my place to live"
           /> 
-          <p className={styles.name_selection}> Where I live</p>
+          <SelectionName>
+          Where I live
+          </SelectionName>
         </article>
     </main>
   )
