@@ -1,8 +1,9 @@
-import styles from './dashboard.module.css'
-import { Selection } from '../component/selection/page'
+import styles from './homepage.module.css'
+import { Selection } from '../component/selections/selection'
+import { SelectionName } from '../component/selections/selectionName'
 import selectImageWhereILive from 'public/images/selections/where i live.jpg'
 import selectImageFamily from 'public/images/selections/family.jpg'
-import { SelectionName } from '../component/selection/page'
+
 
 export default function Page() {
   return (

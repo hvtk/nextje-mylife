@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import styles from './selection.module.css' 
 
 export function Selection({ src, alt }) {
   return (
@@ -10,13 +9,5 @@ export function Selection({ src, alt }) {
       height={153}
       style={{borderRadius: "7px"}}
     />
-  )
-}
-
-export function SelectionName({ children }) {
-  return (
-    <p className={styles.name_selection}>
-      { children }
-    </p>
   )
 }
