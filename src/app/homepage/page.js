@@ -1,12 +1,15 @@
 import styles from './homepage.module.css'
 import { Selection } from '../component/selections/selection'
 import { SelectionName } from '../component/selections/selectionName'
+import { SidebarBase } from '../component/sidebar/base'
 import selectImageWhereILive from 'public/images/selections/where i live.jpg'
 import selectImageFamily from 'public/images/selections/family.jpg'
 
 
 export default function Page() {
   return (
+   <body>
+    <SidebarBase/>
     <main className={styles.main}>
         <article>
           <Selection 
@@ -27,5 +30,6 @@ export default function Page() {
           </SelectionName>
         </article>
     </main>
+   </body>
   )
 }

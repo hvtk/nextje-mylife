@@ -1,0 +1,16 @@
+.main {
+  width: 90px;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--sidebar, rgba(21, 24, 25, 0.3));
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  position: absolute;
+  border-radius: 0px 0px 0px 0px;
+}
