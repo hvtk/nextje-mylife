@@ -1,4 +1,4 @@
-.main {
+.divSidebar {
   width: 90px;
   height: 1080px;
   display: flex;
@@ -13,4 +13,47 @@
   gap: 0;
   position: absolute;
   border-radius: 0px 0px 0px 0px;
+}
+
+.divLogo {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  position: absolute;
+  border-radius: 3px; 
+  border: 1px ;             
+  border: solid;
+  border-color: #222;
+}
+
+.mylifeLogoTL {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0;
+  position: absolute;
+  overflow: visible;
+}
+
+.mylifeLogoFS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+  flex-wrap: nowrap;
+  gap: 0;
+  position: absolute;
+  overflow: visible;
 }

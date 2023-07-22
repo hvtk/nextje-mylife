@@ -1,23 +1,19 @@
 import styles from './sidebarStyles.module.css'
 import { MylifeLogo } from './mylifeLogo'
-import MylifeLogeImageFill from 'public/images/mylife-logo/life.jpg'
+import { MylifeLogoTL } from './mylifeLogo'
 
 export function SidebarBase() {
   return (
-    <main className={styles.main}>
-      <MylifeLogo
-         src={MylifeLogeImageFill}
-         alt="image that fills the parent element"
-         width={80} 
-         height={80}
-         style={{borderRadius: "3px", 
-                 position: "absolute",
-                 border: "1px",
-                 border: "solid",
-                 borderColor: "#222"
-         }}
-      />
-    </main>
+    <div className={styles.divSidebar} >
+          <div className={styles.divLogo} >
+            <div className={styles.mylifeLogFS} >
+                <MylifeLogo/>
+            </div>
+            <div className={styles.mylifeLogoTL} >
+                <MylifeLogoTL />
+            </div>
+          </div>
+    </div>
   )
 }
 
