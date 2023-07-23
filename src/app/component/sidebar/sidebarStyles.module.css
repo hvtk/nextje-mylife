@@ -18,14 +18,14 @@
 .divLogo {
   width: 80px;
   height: 80px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   overflow: hidden;
   padding: 0px 0px 0px 0px;
   align-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 0;
   position: absolute;
   border-radius: 3px; 
@@ -35,25 +35,36 @@
 }
 
 .mylifeLogoTL {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  display: grid;
   padding: 0px 0px 0px 0px;
-  align-content: center;
-  flex-wrap: nowrap;
-  gap: 0;
   position: absolute;
   overflow: visible;
 }
 
 .mylifeLogoFS {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
   padding: 0px 0px 0px 0px;
-  flex-wrap: nowrap;
-  gap: 0;
+  position: absolute;
+  overflow: visible;
+}
+
+.mylifeLogoTR {
+  display: grid;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  overflow: visible;
+}
+
+.mylifeLogoBR {
+  display: flex;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  overflow: visible;
+}
+
+.mylifeLogoBL {
+  display: flex;
+  padding: 0px 0px 0px 0px;
   position: absolute;
   overflow: visible;
 }
