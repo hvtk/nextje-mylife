@@ -1,3 +1,23 @@
+.homepage-layout {
+  display: grid;
+  grid-template-columns: 90px 90px 585px 90px 150px 125px 150px 125px 150px 125px 150px 90px;
+  grid-template-rows: 90px 150px 25px 66px 150px 25px 68px 150px 25px 66px 150px 25px 90px;
+  grid-template-areas:  "sidebar . . . . . . . . . . . "
+                        "sidebar . dialog . figure-family . figure-home . figure-eat-and-drink . figure-my-schedule ."
+                        "sidebar . dialog . figcaption-family . figcaption-home . figcaption-eat-and-drink . figcaption-my-schedule . "
+                        "sidebar . dialog . . . . . . . . ."
+                        "sidebar . dialog . figure-personal-situation . figure-finance . figure-insurance . figure-sleep ."
+                        "sidebar . dialog . figcaption-personal-situation . figcaption-finance . figcaption-insurance . figcaption-sleep ."
+                        "sidebar . dialog . . . . . . . . ."
+                        "sidebar . dialog . figure-subscribtions . figure-installed-apps . figure-used-websites . figure-reminders ."
+                        "sidebar . dialog . figcaption-subscribitions . figcaption-installed-apps . figcaption-used-websites . figcaption-reminders ."
+                        "sidebar . dialog . . . . . . . . . "
+                        "sidebar . dialog . figure-rights-and-obligations . figure-daily-routine . . . . ."
+                        "sidebar . dialog . figcaption-rights-and-obligations . figcaption-daily-routine . . . . ."
+                        "sidebar . . . . . . . . . . . "
+                    ;
+}
+
 .divSidebar {
   display: flex;
   flex-direction: column;
