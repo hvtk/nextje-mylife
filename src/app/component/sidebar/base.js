@@ -6,7 +6,7 @@ import SidebarList from 'public/icons/sidebar/list.svg'
 
 export function SidebarBase() {
   return (
-    <div className={styles.divSidebar} >
+    <div>
       <MylifeLogo /> 
       <div className={styles.SidebarList}>
       <Image

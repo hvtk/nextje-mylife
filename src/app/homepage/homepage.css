@@ -74,14 +74,6 @@
   grid-area: figcaption-finance;
 }
 
-#figureFinance {
-  grid-area: figure-finance;
-}
-
-#figcaptionFinance {
-  grid-area: figcaption-finance;
-}
-
 #figureInsurance {
   grid-area: figure-insurance;
 }
@@ -98,28 +90,12 @@
   grid-area: figcaption-sleep;
 }
 
-#figureSleep {
-  grid-area: figure-sleep;
-}
-
-#figcaptionSleep {
-  grid-area: figcaption-sleep;
-}
-
 #figureSubscribtions {
   grid-area: figure-subscribtions;
 }
 
 #figcaptionSubscribtions {
   grid-area: figcaption-subscribtions;
-}
-
-#figureInstalledApps {
-  grid-area: figure-installed-apps;
-}
-
-#figcaptionInstalledApps {
-  grid-area: figcaption-installed-apps;
 }
 
 #figureInstalledApps {
@@ -161,5 +137,3 @@
 #figcaptionDailyRoutine {
   grid-area: figcaption-daily-routine;
 }
-
-

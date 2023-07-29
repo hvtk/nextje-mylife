@@ -1,11 +1,3 @@
-.divSidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: var(--sidebar, rgba(21, 24, 25, 0.3));
-  overflow: hidden;
-}
-
 .divSidebarList {
   width: 60px;
   height: 60px;
