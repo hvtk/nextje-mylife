@@ -8,17 +8,23 @@ import selectImageFamily from 'public/images/selections/family.jpg'
 
 export default function Page() {
   return (
-   <body>
-    <SidebarBase/>
-    <main className={styles.main}>
+   <body className={styles.homepageLayout}>
+    <div id={styles.sidebar}>
+      <SidebarBase/>
+    </div>
+    <main>
         <article>
-          <Selection 
-            src={selectImageFamily}
-            alt="image respresending my family and friends"
-          />
-          <SelectionName>
-           Family and Friends
-          </SelectionName>
+          <div id={styles.figureFamily}>
+            <Selection 
+              src={selectImageFamily}
+              alt="image respresending my family and friends"
+            />
+          </div>
+          <div id={styles.figcaptionFamily}>
+            <SelectionName>
+            Family and Friends
+            </SelectionName>
+          </div>
         </article>  
         <article>
           <Selection
