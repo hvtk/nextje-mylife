@@ -15,7 +15,7 @@ export function SidebarBase() {
           width={60}
           height={60}
         />
-        </div>
+      </div>
     </div>
   )
 }
